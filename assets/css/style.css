@@ -1,0 +1,42 @@
+:root{
+  --color-basic : rgb(160, 0, 0);
+  --color-white : rgb(255, 255, 255);
+}
+
+.btn-danger , .btn-outline-danger{
+  padding: 0.45rem 2rem !important;
+}
+
+.btn-danger {
+  background-color: var(--color-basic);
+}
+
+.btn-danger:hover {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-basic);
+  color: var(--color-basic);
+}
+
+.btn-outline-danger {
+  border: 2px solid var(--color-basic);
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--color-basic);
+}
+
+.jumbotron .bg-danger {
+  background-color: var(--color-basic) !important;
+  margin: 0rem 12.5rem 0rem 4.5rem;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  color: var(--color-white);
+}
+
+.jumbotron p span {
+  font-weight: bold;
+}
+
+
