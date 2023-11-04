@@ -1,9 +1,10 @@
-:root{
-  --color-basic : rgb(160, 0, 0);
-  --color-white : rgb(255, 255, 255);
+:root {
+  --color-basic: rgb(160, 0, 0);
+  --color-white: rgb(255, 255, 255);
 }
 
-.btn-danger , .btn-outline-danger{
+.btn-danger,
+.btn-outline-danger {
   padding: 0.45rem 2rem !important;
 }
 
@@ -27,7 +28,6 @@
 
 .jumbotron .bg-danger {
   background-color: var(--color-basic) !important;
-  margin: 0rem 12.5rem 0rem 4.5rem;
   border-radius: 10px;
 }
 
@@ -39,4 +39,86 @@
   font-weight: bold;
 }
 
+.bg-home {
+  width: 100%; 
+  max-width: 500px; 
+  height: auto; 
+  top: auto;
+  right: auto;
+  border-radius: 10px;
+}
 
+.jumbotron-text {
+  width: 100%;
+  max-width: 400px; /
+}
+
+.bg-danger .ms-5 {
+  margin-left: 5rem !important;
+}
+
+.bg-danger .py-5 {
+  padding-bottom: 8rem !important;
+}
+
+.product {
+  margin: 0rem 7.5% 0rem 4.5%; 
+}
+
+.product h2 {
+  color: var(--color-basic);
+}
+
+.product img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.bg-home {
+  width: 500px;
+  height: 300px;
+  top: 3rem;
+  right: 7rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 578px) {
+  .bg-home {
+    width: 340px;
+    height: 300px;
+    top: 19rem;
+    right: 1.2rem;
+    border-radius: 10px;
+  }
+
+  .product {
+    margin: 14rem 4.5% 0rem 4.5%;
+  }
+  .bg-danger .ms-5 {
+    margin-left: 1rem !important;
+  }
+  
+}
+
+@media screen and (min-width:720px) and (max-width:992px) {
+  .jumbotron .bg-danger {
+    margin: 0rem 3.5rem 0rem 3.5rem;
+  }
+  
+    .bg-home {
+      width: 500px;
+      height: 300px;
+      top: 19rem;
+      right: 10rem;
+      border-radius: 10px;
+    }
+    .product {
+      margin: 14rem 7.5% 0rem 4.5%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  .jumbotron .bg-danger {
+    margin: 0rem 12.5rem 0rem 4.5rem;
+  }
+}
