@@ -82,6 +82,30 @@
   border-radius: 10px;
 }
 
+.card-body {
+  background-color: pink;
+}
+
+
+.title-product {
+  color: var(--color-basic) !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.price-product {
+  color: var(--color-basic) !important;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+
+.product .card img {
+
+  height: 300px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 578px) {
   .bg-home {
     width: 340px;
@@ -100,7 +124,7 @@
   
 }
 
-@media screen and (min-width:720px) and (max-width:992px) {
+@media screen and (min-width:578px) and (max-width:992px) {
   .jumbotron .bg-danger {
     margin: 0rem 3.5rem 0rem 3.5rem;
   }
